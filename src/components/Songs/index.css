@@ -1,0 +1,42 @@
+.image {
+  height: 95px;
+  width: 125px;
+  margin-top: 10px;
+}
+.button {
+  display: flex;
+  margin: 10px;
+  background-color: transparent;
+  border: none;
+  align-items: top;
+  justify-content: center;
+  align-self: stretch;
+  cursor: pointer;
+}
+button:hover {
+  color: brown;
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.image-card {
+  display: flex;
+}
+.name-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.genre {
+  color: #3b82f6;
+}
+.logo {
+  color: #ffffff;
+  margin-top: 10px;
+}
+.duration-card {
+  display: flex;
+}
